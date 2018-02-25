@@ -1,0 +1,102 @@
+No.,Date,Athlete,Country,Hill,Location,Metres,Yards,Feet
+1,22 November 1808,Olaf Rye,Norway  Denmark,Eidsberg church,"Eidsberg, Norway",9.5,10.4,31
+2,8 March 1868,Sondre Norheim,Norway,Hauglibakken,"Brunkeberg, Norway",19.5,21.3,64
+3,12 February 1879,Olaf Haugann,Norway,Kastellbakken,"Oslo, Norway",20,21.9,66
+4,1881,Sveinung Svalastoga,Norway,Kastellbakken,"Oslo, Norway",22,24.1,72
+5,1886,Johannes Nordgard,Norway,Flatdalbakken,"Seljord, Norway",26,28.4,85
+6,1891,Mikkjel Hemmestveit,Norway,McSorley Hill,"Red Wing, United States",31.1,34,102
+7,1893,Torjus Hemmestveit,Norway,McSorley Hill,"Red Wing, United States",31.4,34.3,103
+8,1897,Svein Solid,Norway,Hegnibakken,"Morgedal, Norway",31.5,34.4,103
+9,1899,Asbjørn Nilssen,Norway,Solbergbakken,"Bærum, Norway",32.5,35.5,107
+11,1900,Olaf Tandberg,Norway,Solbergbakken,"Bærum, Norway",35.5,38.8,116
+12,1902,Nils Gjestvang,Norway,Gustadbakken,"Geithus, Norway",38.5,42.1,126
+13,1902,Nils Gjestvang,Norway,Gustadbakken,"Geithus, Norway",41,44.8,135
+14,24 January 1909,Oscar Gundersen,Norway,Chippewa Falls Ski Jump,"Chippewa Falls, United States",42.1,46,138
+15,1909,Harald Smith,Norway,Trampolino Campo Smith,"Bardonecchia, Kingdom of Italy",43,47,141
+16,28 February 1909,Harald Smith,Norway,Bolgenschanze,"Davos, Switzerland",45,49.2,148
+17,19 February 1911,Anders Haugen,United States,Wolverine Hill,"Ironwood, United States",46.3,50.6,152
+18,1912,Gunnar Andersen,Norway,Gustadbakken,"Geithus, Modum, Norway",47.5,52,156
+19,16 February 1913,Ragnar Omtvedt,United States,Wolverine Hill,"Ironwood, United States",48.2,52.7,158
+20,16 February 1913,Ragnar Omtvedt,United States,Wolverine Hill,"Ironwood, United States",51.5,56.3,169
+21,2 March 1913,Thorleif Knudsen,Norway,Bolgenschanze,"Davos, Switzerland",48,52.5,157
+22,7 February 1915,Reidar Amble Ommundsen,Norway,Vikkollen,"Mjøndalen, Norway",54,59.1,177
+23,18 February 1916,Ragnar Omtvedt,United States,Howelsen Hill,"Steamboat Springs, United States",58.5,64,192
+24,1917,Henry Hall,United States,Howelsen Hill,"Steamboat Springs, United States",61.9,67.7,203
+25,1918,Henry Hall,United States,Howelsen Hill,"Steamboat Springs, United States",62.2,68,204
+26,1919,Anders Haugen,United States,Haugen Hill,"Dillon, United States",64.9,71,213
+27,29 February 1920,Anders Haugen,United States,Haugen Hill,"Dillon, United States",65.2,71.3,214
+28,1921,Henry Hall,United States,Nels Nelsen Hill,"Revelstoke, Canada",69.8,76.3,229
+29,4 February 1925,Nels Nelsen,Canada,Nels Nelsen Hill,"Revelstoke, Canada",73.1,79.9,240
+30,1930,Adolph Badrutt,Switzerland,Bernina-Roseg-Schanze,"Pontresina, Switzerland",75,82,246
+31,1931,Birger Ruud,Norway,Odnesbakken,"Odnes, Norway",76.5,73.7,251
+32,24 February 1931,Sigmund Ruud,Norway,Bolgenschanze,"Davos, Switzerland",81.5,89.1,267
+33,13 March 1932,Robert Lymburne,Canada,Nels Nelsen Hill,"Revelstoke, Canada",82,89.7,269
+34,13 March 1933,Sigmund Ruud,Norway,Tremplin de Bretaye,"Villars, Switzerland",84,91.9,276
+35,19 January 1933,Sigmund Ruud,Norway,Tremplin de Bretaye,"Villars, Switzerland",86,94,282
+36,26 February 1933,Henri Ruchet,Switzerland,Tremplin de Bretaye,"Villars, Switzerland",87,95.1,285
+37,1933,Robert Lymburne,Canada,Nels Nelsen Hill,"Revelstoke, Canada",87.5,95.7,287
+38,25 March 1934,Birger Ruud,Norway,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",92,100.6,302
+39,14 March 1935,Reidar Andersen,Norway,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",93,101.7,305
+40,15 March 1935,Stanisław Marusarz,Poland,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",95,103.9,312
+41,15 March 1935,Reidar Andersen,Norway,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",98,107.2,322
+42,15 March 1935,Reidar Andersen,Norway,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",99,108.3,325
+43,17 March 1935,Fritz Kainersdörfer,Switzerland,Trampolino Gigante Corno d’Aola,"Ponte di Legno, Kingdom of Italy",99.5,108.8,326
+44,15 March 1936,Josef Bradl,Austria,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",101.5,111,333
+45,15 March 1938,Josef Bradl,Austria,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",107,117,351
+46,2 March 1941,Rudi Gering,Nazi Germany,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",108,118.1,354
+47,2 March 1941,Franz Mair,Nazi Germany,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",109,119.2,358
+48,2 March 1941,Hans Lahr,Nazi Germany,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",111,121.4,364
+49,2 March 1941,Paul Krauß,Nazi Germany,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",112,122.5,367
+50,2 March 1941,Rudi Gering,Nazi Germany,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",118,129,387
+51,15 March 1948,Fritz Tschannen,Switzerland,Bloudkova velikanka,"Planica, Kingdom of Yugoslavia",120,131.2,394
+52,28 February 1950,Willi Gantschnigg,Austria,Heini-Klopfer-Skiflugschanze,"Oberstdorf, Germany",124,135.6,407
+53,2 March 1950,Sepp Weiler,Germany,Heini-Klopfer-Skiflugschanze,"Oberstdorf, Germany",127,138.9,417
+54,3 March 1950,Dan Netzell,Sweden,Heini-Klopfer-Skiflugschanze,"Oberstdorf, Germany",135,147.6,443
+55,2 March 1951,Tauno Luiro,Finland,Heini-Klopfer-Skiflugschanze,"Oberstdorf, Germany",139,152,456
+56,24 February 1961,Jože Šlibar,Yugoslavia,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",141,154.2,463
+59,15 February 1964,Dalibor Motejlek,Czechoslovakia,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",142,155.3,466
+60,18 February 1964,Nilo Zandanel,Italy,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",144,157.5,472
+61,21 March 1965,Peter Lesser,East Germany,Kulm,"Tauplitz/Bad Mitterndorf, Austria",145,158.6,476
+63,13 March 1966,Bjørn Wirkola,Norway,Vikersundbakken,"Vikersund, Norway",146,159.7,479
+64,10 February 1967,Lars Grini,Norway,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",147,160.8,482
+65,10 February 1967,Kjell Sjöberg,Sweden,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",148,161.8,486
+66,11 February 1967,Lars Grini,Norway,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",150,164,492
+67,12 March 1967,Reinhold Bachler,Austria,Vikersundbakken,"Vikersund, Norway",154,168.4,505
+68,21 March 1969,Bjørn Wirkola,Norway,Velikanka bratov Gorišek,"Planica, Yugoslavia",156,170.6,512
+70,22 March 1969,Bjørn Wirkola,Norway,Velikanka bratov Gorišek,"Planica, Yugoslavia",160,175,525
+71,22 March 1969,Jiří Raška,Czechoslovakia,Velikanka bratov Gorišek,"Planica, Yugoslavia",164,179.4,538
+72,23 March 1969,Manfred Wolf,East Germany,Velikanka bratov Gorišek,"Planica, Yugoslavia",165,180.4,541
+73,9 March 1973,Heinz Wossipiwo,East Germany,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",169,184.8,554
+75,4 March 1976,Geir Ove Berg,Norway,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",173,189.2,568
+76,5 March 1976,Toni Innauer,Austria,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",174,190.3,571
+78,7 March 1976,Toni Innauer,Austria,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",176,192.5,577
+81,26 February 1981,Armin Kogler,Austria,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",180,196.8,591
+82,19 March 1983,Pavel Ploc,Czechoslovakia,Čerťák,"Harrachov, Czechoslovakia",181,198,594
+83,16 March 1984,Matti Nykänen,Finland,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",182,199,597
+85,17 March 1984,Matti Nykänen,Finland,Heini-Klopfer-Skiflugschanze,"Oberstdorf, West Germany",185,202.3,607
+86,15 March 1985,Mike Holland,United States,Velikanka bratov Gorišek,"Planica, Yugoslavia",186,203.4,610
+87,15 March 1985,Matti Nykänen,Finland,Velikanka bratov Gorišek,"Planica, Yugoslavia",187,204.5,614
+88,15 March 1985,Matti Nykänen,Finland,Velikanka bratov Gorišek,"Planica, Yugoslavia",191,208.9,627
+89,9 March 1986,Andreas Felder,Austria,Kulm,"Tauplitz/Bad Mitterndorf, Austria",191,208.9,627
+90,14 March 1987,Piotr Fijas,Poland,Velikanka bratov Gorišek,"Planica, Yugoslavia",194,212.2,636
+91,17 March 1994,Martin Höllwarth,Austria,Velikanka bratov Gorišek,"Planica, Slovenia",196,214.3,643
+92,17 March 1994,Toni Nieminen,Finland,Velikanka bratov Gorišek,"Planica, Slovenia",203,222,666
+93,18 March 1994,Espen Bredesen,Norway,Velikanka bratov Gorišek,"Planica, Slovenia",209,228.6,686
+94,22 March 1997,Espen Bredesen,Norway,Velikanka bratov Gorišek,"Planica, Slovenia",210,229.7,689
+95,22 March 1997,Lasse Ottesen,Norway,Velikanka bratov Gorišek,"Planica, Slovenia",212,231.8,696
+96,19 March 1999,Martin Schmitt,Germany,Velikanka bratov Gorišek,"Planica, Slovenia",214.5,234.6,704
+97,20 March 1999,Tommy Ingebrigtsen,Norway,Velikanka bratov Gorišek,"Planica, Slovenia",219.5,240,720
+98,16 March 2000,Thomas Hörl,Austria,Velikanka bratov Gorišek,"Planica, Slovenia",224.5,245.5,737
+99,18 March 2000,Andreas Goldberger,Austria,Velikanka bratov Gorišek,"Planica, Slovenia",225,246.1,738
+101,20 March 2003,Matti Hautamäki,Finland,Velikanka bratov Gorišek,"Planica, Slovenia",227.5,248.8,746
+102,22 March 2003,Matti Hautamäki,Finland,Velikanka bratov Gorišek,"Planica, Slovenia",228.5,249.9,750
+103,23 March 2003,Matti Hautamäki,Finland,Velikanka bratov Gorišek,"Planica, Slovenia",231,252.6,758
+105,20 March 2005,Bjørn Einar Romøren,Norway,Letalnica bratov Gorišek,"Planica, Slovenia",234.5,256.4,769
+106,20 March 2005,Matti Hautamäki,Finland,Letalnica bratov Gorišek,"Planica, Slovenia",235.5,257.5,773
+107,20 March 2005,Bjørn Einar Romøren,Norway,Letalnica bratov Gorišek,"Planica, Slovenia",239,261.4,784
+108,11 February 2011,Johan Remen Evensen,Norway,Vikersundbakken,"Vikersund, Norway",243,265.7,797
+109,11 February 2011,Johan Remen Evensen,Norway,Vikersundbakken,"Vikersund, Norway",246.5,269.6,809
+110,14 February 2015,Peter Prevc,Slovenia,Vikersundbakken,"Vikersund, Norway",250,273.4,820
+111,15 February 2015,Anders Fannemel,Norway,Vikersundbakken,"Vikersund, Norway",251.5,275,825
+112,18 March 2017,Robert Johansson,Norway,Vikersundbakken,"Vikersund, Norway",252,275.6,827
+113,18 March 2017,Stefan Kraft,Austria,Vikersundbakken,"Vikersund, Norway",253.5,277.2,832
