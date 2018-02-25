@@ -5,13 +5,17 @@ var dt = 0.01
 var xOff = 210;
 
 export default class Jumper {
-    constructor(target, name) {
+    constructor(target, name, nationality) {
         this.pos = [0, 220 + yOff]
-        this.spd = this.calcStartVector(target, random(5, 30))
+        this.spd = this.calcStartVector(target, random(10, 20))
         this.trail = [];
         this.trail.push([this.pos[0], this.pos[1]])
         this.finished = false
+        this.finTime = 0
         this.name = name
+        this.width = target
+        this.nationality = nationality
+        this.col = color(255, 128, target, 50)
     }
 
     update() {
@@ -23,6 +27,7 @@ export default class Jumper {
                 } else {
                     this.pos = intersectLines(this.pos, this.spd, [0, 300 + yOff], [1, 0])
                     this.finished = true;
+                    this.finTime = millis();
                 }
                 this.spd[1] += g * dt
             }
@@ -31,27 +36,37 @@ export default class Jumper {
     }
 
     draw() {
+        // draw jumper
         stroke(0)
-        ellipse(xOff + this.pos[0] * scale, this.pos[1], 2, 2)
+        fill(0)
+        ellipse(xOff + this.pos[0] * scale, this.pos[1], 5, 5)
 
-        //draw trail
+        // draw trail
         noFill()
-        stroke(255, 128, 0, 50)
+        strokeWeight(2)
+        stroke(this.col)
         beginShape()
         this.trail.forEach(el => {
             vertex(xOff + el[0] * scale, el[1])
         });
         endShape()
+
+        // draw text
+        fill(0)
         stroke(0)
-        if (this.finished) {
+        strokeWeight(0.5)
+        if (this.finished && ((millis() - this.finTime) / 6) < 255) {
+            noStroke()
+            fill(0, 0, 0, 255 - ((millis() - this.finTime) / 6))
             push()
             translate(xOff + this.pos[0] * scale, this.pos[1] + 9)
             rotate(PI / 2)
-            text(round(10 * this.pos[0]) / 10 + "m", 0, 0)
+            text(round(10 * this.pos[0]) / 10 + "m" + " (" + this.name + ")", 0, 0)
             pop()
-        } else {
+        } else if (!this.finished) {
             text(round(10 * this.pos[0]) / 10 + "m", xOff + this.pos[0] * scale + 5, this.pos[1] - 5)
         }
+        strokeWeight(1)
 
     }
 
