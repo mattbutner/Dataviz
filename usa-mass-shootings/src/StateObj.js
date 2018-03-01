@@ -15,7 +15,7 @@ export class StateObj {
     }
 
     updateSaturation() {
-        this.state.fillColor.saturation = ((this.deathCnt + this.injuredCnt) / 75);
+        this.state.fillColor.saturation = ((this.deathCnt + this.injuredCnt) / 450); // /75 for relative pop
     }
 
     addEvent(dead, injured) {
