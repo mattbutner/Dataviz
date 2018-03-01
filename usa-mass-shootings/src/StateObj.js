@@ -1,7 +1,12 @@
+import { tab, pop } from './mapNames.js';
+
+var useRelativePopulation = false
 export class StateObj {
     constructor(state) {
         this.state = state
-        this.name = state.name
+        this.nameShort = state.name
+        this.nameLong = tab[state.name]
+        this.pop = pop[state.name]
         this.defaultLightness = state.fillColor.lightness;
         this.isFlashing = false
         this.flashTime = 0
@@ -9,8 +14,19 @@ export class StateObj {
         this.injuredCnt = 0;
     }
 
-    addSaturation(death, injured) {
-        this.state.fillColor.saturation += ((death + injured) / 250);
+    updateSaturation() {
+        this.state.fillColor.saturation = ((this.deathCnt + this.injuredCnt) / 75);
+    }
+
+    addEvent(dead, injured) {
+        if (useRelativePopulation) {
+            this.deathCnt += dead * (1000000 / this.pop)
+            this.injuredCnt += injured * (1000000 / this.pop)
+        } else {
+            this.deathCnt += dead
+            this.injuredCnt += injured
+        }
+
     }
 
     flash(t) {

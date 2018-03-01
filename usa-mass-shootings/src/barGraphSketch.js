@@ -1,5 +1,5 @@
 import { states } from './sketch.js'
-import mapTable from './mapNames.js';
+
 
 export var s1 = function (sketch) {
 
@@ -98,15 +98,14 @@ export var s1 = function (sketch) {
         // get location of incident and get matching state in the map svg
         let loc = table.getString(i, 1);
         let svgState = states.find(item => {
-            return item.name === mapTable[loc]
+            return item.nameLong === loc
         });
 
         // update state data
-        svgState.deathCnt += table.getNum(i, 4)
-        svgState.injuredCnt += table.getNum(i, 5)
+        svgState.addEvent(table.getNum(i, 4), table.getNum(i, 5))
 
         // change saturation of state
-        svgState.addSaturation(table.getNum(i, 4), table.getNum(i, 5));
+        svgState.updateSaturation();
 
         // flash the state
         svgState.flash(sketch.millis());

@@ -27,7 +27,7 @@ export var s2 = function (sketch) {
     }
 
     function drawStateStats() {
-        let scl = 0.75
+        let scl = 0.75 // 2.75 for relative pop
         let yOff = 18
         let rectXOff = 25;
 
@@ -41,11 +41,11 @@ export var s2 = function (sketch) {
 
             // draw state name
             sketch.fill(0)
-            sketch.text(el.name, 0, yOff)
+            sketch.text(el.nameShort, 0, yOff)
 
             // draw state data (death/injured)
             if (el.deathCnt !== 0 || el.injuredCnt !== 0)
-                sketch.text(el.deathCnt + "/" + el.injuredCnt, rectXOff + 3 + (el.deathCnt + el.injuredCnt) * scl, yOff)
+                sketch.text(Math.round(el.deathCnt * 100) / 100 + "/" + Math.round(el.injuredCnt * 100) / 100, rectXOff + 3 + (el.deathCnt + el.injuredCnt) * scl, yOff)
 
             // draw the bars    
             sketch.fill(255, 0, 0)

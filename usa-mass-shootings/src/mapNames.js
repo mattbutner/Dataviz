@@ -1,4 +1,4 @@
-var tab = {
+export var tab = {
     AL: "Alabama",
     AK: "Alaska",
     AZ: "Arizona",
@@ -52,13 +52,67 @@ var tab = {
     WY: "Wyoming"
 }
 
-function swap(json) {
-    var ret = {};
-    for (var key in json) {
-        ret[json[key]] = key;
-    }
-    return ret;
+export var pop = {
+    AL: 4874747,
+    AK: 739795,
+    AZ: 7016270,
+    AR: 3004279,
+    CA: 39536653,
+    CO: 5607154,
+    CT: 3588184,
+    DC: 693972,
+    DE: 961939,
+    FL: 20984400,
+    GA: 10429379,
+    HI: 1427538,
+    ID: 1716943,
+    IL: 12802023,
+    IN: 6666818,
+    IA: 3145711,
+    KS: 2913123,
+    KY: 4454189,
+    LA: 4684333,
+    ME: 1335907,
+    MD: 6052177,
+    MA: 6859819,
+    MI: 9962311,
+    MN: 5576606,
+    MS: 2984100,
+    MO: 6113532,
+    MT: 1050493,
+    NE: 1920076,
+    NV: 2998039,
+    NH: 1342795,
+    NJ: 9005644,
+    NM: 2088070,
+    NY: 19849399,
+    NC: 10273419,
+    ND: 755393,
+    OH: 11658609,
+    OK: 3930864,
+    OR: 4142776,
+    PA: 12805537,
+    RI: 1059639,
+    SC: 5024369,
+    SD: 869666,
+    TN: 6715984,
+    TX: 28304596,
+    UT: 3101833,
+    VT: 623657,
+    VA: 8470020,
+    WA: 7405743,
+    WV: 1815857,
+    WI: 5795483,
+    WY: 579315
 }
 
-var tab = swap(tab);
-export default tab;
+// function swap(json) {
+//     var ret = {};
+//     for (var key in json) {
+//         ret[json[key]] = key;
+//     }
+//     return ret;
+// }
+
+// var tab = swap(tab);
+// export default tab;
