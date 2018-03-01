@@ -1,1 +1,1 @@
-![img](https://thumbs.gfycat.com/PartialThunderousHerculesbeetle-max-14mb.gif)
+![img](https://thumbs.gfycat.com/PartialThunderousHerculesbeetle-size_restricted.gif)
